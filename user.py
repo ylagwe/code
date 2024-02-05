@@ -1,0 +1,6 @@
+student_name= input("Enter student's name: ")
+coursework_mark= int(input("Enter your coursework marks: "))
+exam_mark=int(input("Enter your exam score: "))
+exam_score = ((exam_mark/100)*(70))
+final_exam= (exam_score) + (coursework_mark)
+print(("Final exam"),final_exam)
